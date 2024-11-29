@@ -1,4 +1,5 @@
 import argparse
+
 import requests
 
 # Définir l'URL de base de votre API FastAPI
@@ -20,8 +21,14 @@ def get_parents(id: str):
 def main():
     """Analyser les arguments de la ligne de commande et interroger l'API"""
     # Configurer l'analyseur d'arguments
-    parser = argparse.ArgumentParser(description="Interroger le service FastAPI pour les relations d'entité.")
-    parser.add_argument('id', type=str, help="L'ID de l'entité à interroger (ex : http://entity/CST/OCCLUS%20CAROTID)")
+    parser = argparse.ArgumentParser(
+        description="Interroger le service FastAPI pour les relations d'entité."
+    )
+    parser.add_argument(
+        "id",
+        type=str,
+        help="L'ID de l'entité à interroger (ex : http://entity/CST/OCCLUS%20CAROTID)",
+    )
 
     # Analyser les arguments
     args = parser.parse_args()
