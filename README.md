@@ -36,8 +36,4 @@ Building a logical representation of Onto-X that preserves ancestor relationship
 # 4- Installation
 # 5- Credits
 
-In the README, you should try to answer the following questions:
-
-What are the principles you applied
-Can you explain the decisions you made and why it is the best approach
-What are your recommendations for future work
+Boris Sessou
