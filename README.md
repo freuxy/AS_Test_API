@@ -34,6 +34,17 @@ Building a logical representation of Onto-X that preserves ancestor relationship
     - Expose the traetment via Rest API using FastAPI
     - Docker image of the RestAPI
 # 4- Installation
+    To use Command Line Interface:
+    Please execute these commands in the terminal:
+
+    -> git clone https://github.com/freuxy/AS_Test_API
+    -> cd AS_Test_API
+    -> source venv/bin/activate
+    -> pip install -r requirements.txt
+    -> uvicorn app:app --reload
+    -> python cli.py "Class ID"
+
 # 5- Credits
 
 ### <a href="https://www.linkedin.com/in/boris-sessou/">Boris Sessou</a>
+### <a href="https://www.arcascience.ai/">ArcaScience</a>
