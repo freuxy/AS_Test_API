@@ -36,4 +36,4 @@ Building a logical representation of Onto-X that preserves ancestor relationship
 # 4- Installation
 # 5- Credits
 
-Boris Sessou
+### <a href="https://www.linkedin.com/in/boris-sessou/">Boris Sessou</a>
