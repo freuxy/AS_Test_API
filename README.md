@@ -33,6 +33,7 @@ Building a logical representation of Onto-X that preserves ancestor relationship
     - Querybale through a Command Line Interface
     - Expose the traetment via Rest API using FastAPI
     - Docker image of the RestAPI
+    - Deploy the API on Render: https://as-test-api.onrender.com
 # 4- Installation
     To use Command Line Interface:
     Please execute these commands in the terminal:
