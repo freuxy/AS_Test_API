@@ -1,9 +1,7 @@
-import pandas as pd
-import duckdb
+#import pandas as pd
+#import duckdb
 import networkx as nx
 import csv
-import matplotlib.pyplot as plt
-from torch.cuda import graph
 
 
 def load_ontology(file_path:str):
